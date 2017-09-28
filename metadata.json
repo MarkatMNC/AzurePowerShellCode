@@ -1,0 +1,13 @@
+{
+
+  "itemDisplayName": "Development vNets with NSGs and Rules",
+
+  "description": "This template deploys a Virtual Network with 3 subnets, 3 Network Security Groups and appropriate security rules.",
+
+  "summary": "Install Virtual Networks with NSG and Rules",
+
+  "githubUsername": "MarkatMNC",
+
+  "dateUpdated": "2017-09-28"
+
+}

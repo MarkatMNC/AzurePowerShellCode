@@ -1,0 +1,59 @@
+{
+
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+
+  "contentVersion": "1.0.0.0",
+
+  "parameters": {
+
+    "virtualNetworkName": {
+
+      "value": "MNC_vNetwork"
+
+    },
+
+    "addressPrefix": {
+
+      "value": "10.50.0.0/16"
+
+    },
+
+    "DEvWebSubnetPrefix": {
+
+      "value": "10.50.21.0/24"
+
+    },
+
+    "DevAppSubnetPrefix": {
+
+      "value": "10.50.22.0/24"
+
+    },
+
+    "DevDBSubnetPrefix": {
+
+      "value": "10.50.23.0/24"
+
+    },
+
+    "DevWebNSGName": {
+
+      "value": "Webnsg"
+
+    },
+
+    "DevAppNSGName": {
+
+      "value": "appnsg"
+
+    },
+
+    "DevDBNSGName": {
+
+      "value": "dbnsg"
+
+    }
+
+  }
+
+}
